@@ -1,10 +1,9 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import MuiCard from './components/MuiCard';
 import MuiTypography from './components/MuiTypography';
 import { Typography } from '@mui/material';
 import MuiButtons from './components/MuiButtons';
+import MuiTextField from './components/MuiTextField';
 
 function App() {
   return (
@@ -17,6 +16,10 @@ function App() {
 
       <MuiCard>
         <MuiButtons title="Buttons" link="https://youtu.be/fgTLgz1xSn8"/>
+      </MuiCard>
+
+      <MuiCard>
+        <MuiTextField title="Text Fields" link="https://youtu.be/BS2hOxbXMgw"/>
       </MuiCard>
     </div>
   );
